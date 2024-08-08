@@ -1,5 +1,12 @@
 
-document.getElementById('overlay').addEventListener('click', function() {
+
+document.getElementById('overlay').addEventListener('click', handleOverlayClick);
+document.getElementById('overlay').addEventListener('touchend', handleOverlayClick);
+                                                    
+function handleOverlayClick(event) {
+
+    event.preventDefault();
+    
     this.style.display = 'none';
     const card = document.getElementById('index');
     const frontDiv = card.querySelector('.front');
