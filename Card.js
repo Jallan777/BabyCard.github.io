@@ -1,7 +1,7 @@
 
 document.getElementById('overlay').addEventListener('click', function() {
     this.style.display = 'none';
-    const card = document.getElementById('card');
+    const card = document.getElementById('index');
     const frontDiv = card.querySelector('.front');
     const backDiv = card.querySelector('.back');
 
