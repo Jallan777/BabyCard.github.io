@@ -1,7 +1,7 @@
 
 
 document.getElementById('overlay').addEventListener('click', handleOverlayClick);
-document.getElementById('overlay').addEventListener('touchend', handleOverlayClick);
+
                                                     
 function handleOverlayClick(event) {
 
