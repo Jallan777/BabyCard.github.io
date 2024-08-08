@@ -19,7 +19,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    will-change: transform;
   }
   
   .card div {
@@ -97,7 +96,7 @@ body {
     border-radius: 50%;
     background-color: red;
     animation: fall 3s ease-out forwards;
-    will-change: transform, opacity;
+    
   }
   
   @keyframes fall {
