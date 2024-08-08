@@ -1,12 +1,5 @@
 
-
-document.getElementById('overlay').addEventListener('click', handleOverlayClick);
-
-                                                    
-function handleOverlayClick(event) {
-
-    event.preventDefault();
-    
+document.getElementById('overlay').addEventListener('click', function() {
     this.style.display = 'none';
     const card = document.getElementById('index');
     const frontDiv = card.querySelector('.front');
